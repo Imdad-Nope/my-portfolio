@@ -1,0 +1,62 @@
+.contactMain {
+    background-color: #1a1a1a;
+    padding: 2rem 9%;
+
+}
+
+.containerC {
+    margin-top: 2rem;
+}
+
+.dividerC {
+    background-color: #333;
+}
+
+.typoC1 {
+    color: #fff;
+}
+
+.typoC2 {
+    color: #f9ca24;
+}
+
+.cInfo {
+    color: #fff;
+    padding: 10px;
+}
+
+.infoTypo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.icon {
+    color: #f9ca24;
+}
+
+.info {
+    color: rgb(238, 238, 238);
+}
+
+.textField {
+    background: rgb(145, 142, 142);
+}
+
+
+.containerC .btnC {
+    font-size: 1rem;
+    color: #eee;
+    padding: 10px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background: rgb(51, 51, 51);
+}
+
+.containerC .btnC:hover {
+    background-color: #f9ca24;
+    border-radius: 2rem;
+    color: #333;
+    letter-spacing: .2rem;
+}

@@ -1,0 +1,32 @@
+.blogMain {
+    background-color: #1a1a1a;
+    padding: 2rem 9%;
+}
+
+.containerBl {
+    margin-top: 2rem;
+}
+
+.dividerbl {
+    background-color: #333;
+}
+
+.blogH1 {
+    color: #fff;
+}
+
+.blogH2 {
+    color: #f9ca24;
+}
+
+.descH {
+    color: gainsboro;
+}
+
+.desc {
+    color: rgb(255, 255, 255);
+}
+
+.strongTypo {
+    color: #a9a9a9;
+}

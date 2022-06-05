@@ -1,0 +1,74 @@
+* {
+    transition: all .2s linear;
+}
+
+.projectMain {
+    background-color: #1a1a1a;
+    padding: 2rem 9%;
+}
+
+.containerP {
+    margin-top: 4rem;
+}
+
+.dividerP {
+    background-color: #333;
+}
+
+.typoP1 {
+    color: #fff;
+}
+
+.typoP2 {
+    color: #f9ca24;
+}
+
+a {
+    text-decoration: none;
+}
+
+a .btnP {
+    background: rgb(155, 148, 148);
+    color: #fff;
+}
+
+a .btnP:hover {
+    background-color: #f9ca24;
+    border-radius: 2rem;
+    color: #333;
+    cursor: pointer;
+    letter-spacing: .2rem;
+}
+
+/* Hovering images */
+.projectMain .projectCard img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.projectMain .projectCard:hover img {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+.projectMain .projectCard {
+    position: relative;
+    overflow: hidden;
+}
+
+.projectMain .projectCard .content {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: -100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projectMain .projectCard:hover .content {
+    left: 0;
+}

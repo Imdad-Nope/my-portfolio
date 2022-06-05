@@ -1,0 +1,60 @@
+.aboutMain {
+    background-color: #1a1a1a;
+    padding: 2rem 9%;
+
+}
+
+.containerA {
+    margin-top: 2rem;
+}
+
+.dividerA {
+    background-color: #333;
+}
+
+.typoA1 {
+    color: #fff;
+}
+
+.typoA2 {
+    color: #f9ca24;
+}
+
+.typoA3 {
+    color: #eee;
+}
+
+.containerA .cardA {
+
+    background-color: #333;
+}
+
+.aboutMain .infoA {
+    padding: 10px;
+}
+
+.aboutMain .containerA .cardBg {
+    background: #333;
+    margin: 1rem;
+    animation-delay: 2s;
+}
+
+a {
+    text-decoration: none;
+}
+
+a .btnA {
+    font-size: 1rem;
+    color: #eee;
+    padding: 10px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background: rgb(51, 51, 51);
+}
+
+a .btnA:hover {
+    background-color: #f9ca24;
+    border-radius: 2rem;
+    color: #333;
+    letter-spacing: .2rem;
+}
