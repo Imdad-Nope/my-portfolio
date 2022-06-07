@@ -1,10 +1,13 @@
 import React, { useState } from 'react';
-import { Alert, Button, CssBaseline, Divider, Grid, TextField, Typography } from '@mui/material';
+import { Alert, Button, CssBaseline, Divider, Grid, Typography } from '@mui/material';
 import { Container } from '@mui/system';
 import EmailIcon from '@mui/icons-material/Email';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import SendIcon from '@mui/icons-material/Send';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import './Contact.css';
 
 
@@ -81,59 +84,79 @@ const Contact = () => {
                                                 <LocationOnIcon className='icon' /> <span className='info'>Cumilla, Chauddagram, Gunabati.</span>
                                             </Typography>
                                         </Grid>
+                                        <Grid className='link' align='justify'>
+
+                                            <Grid>
+                                                <a href="https://web.facebook.com/md.alauddinovi.10">
+                                                    <FacebookIcon fontSize='medium' />
+                                                </a>
+
+                                            </Grid>
+
+                                            <Grid>
+                                                <a href="https://github.com/Imdad-Nope" >
+                                                    <GitHubIcon fontSize='medium' />
+                                                </a>
+                                            </Grid>
+
+
+                                            <Grid>
+                                                <a href="https://www.linkedin.com/in/md-alauddin-30649b216/">
+                                                    <LinkedInIcon fontSize='medium' />
+                                                </a>
+                                            </Grid>
+
+                                        </Grid>
                                     </Grid>
                                     <Grid item xs={8} sm={6} align='inherit'>
 
                                         <form onSubmit={handleSubmit}>
                                             <Grid justifyContent='flex-end'>
-                                                <TextField
+                                                <input
 
                                                     className='textField'
-                                                    gutterBottom
-                                                    fullWidth
                                                     placeholder='Name'
-                                                    name='clientName'
+                                                    type="text"
+                                                    name="clientName"
                                                     onBlur={handleOnBlur}
-                                                    id="fullWidth"
                                                     required
                                                 />
 
-
-                                                <TextField
-                                                    sx={{ my: 2 }}
+                                                <input
                                                     className='textField'
-                                                    fullWidth
+                                                    type="email"
                                                     placeholder="Email"
                                                     name='email'
                                                     onBlur={handleOnBlur}
-                                                    id="fullWidth"
                                                     required
+
                                                 />
 
-                                                <TextField
-                                                    className='textField'
-                                                    id="outlined-textarea"
-                                                    placeholder="Message"
-                                                    multiline
-                                                    rows={4}
-                                                    fullWidth
-                                                    name='message'
+
+                                                <textarea
+                                                    className='textField message'
+                                                    type='text'
+                                                    name="message"
                                                     onBlur={handleOnBlur}
+                                                    placeholder='Message'
+                                                    cols="30"
+                                                    rows="10"
                                                     required
-                                                />
+                                                ></textarea>
+
+
                                                 <Grid align='left' sx={{ mt: 1 }}>
 
                                                     <Button type='submit' className='btnC' variant="contained" endIcon={<SendIcon />}>
                                                         Send
                                                     </Button>
 
-
-
                                                 </Grid>
                                             </Grid>
                                         </form>
+
                                         {success && < Alert severity="success">
-                                            Sent messgae successfully !</Alert>}
+                                            Sent message successfully !</Alert>}
 
                                     </Grid>
                                 </Grid>

@@ -54,7 +54,6 @@ a .btnA {
 
 a .btnA:hover {
     background-color: #f9ca24;
-    border-radius: 2rem;
     color: #333;
-    letter-spacing: .2rem;
+
 }

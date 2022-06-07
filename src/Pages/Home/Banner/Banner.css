@@ -38,7 +38,7 @@
     object-fit: cover;
     border-radius: 50%;
     background: rgb(220, 231, 224);
-    border: 8px solid #f9ca24;
+    border: 8px solid #e0b722;
 }
 
 .tilt_over {
@@ -168,9 +168,8 @@ a .btnB {
 
 a .btnB:hover {
     background-color: #f9ca24;
-    border-radius: 2rem;
     color: #333;
-    letter-spacing: .2rem;
+
 }
 
 .icons {

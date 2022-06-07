@@ -40,9 +40,53 @@
     color: rgb(238, 238, 238);
 }
 
-.textField {
-    background: rgb(145, 142, 142);
+.link {
+    display: flex;
+    padding: 10px;
 }
+
+.link a {
+    margin-right: 1rem;
+    color: #f9ca24;
+}
+
+.containerC form .textField {
+    width: 100%;
+    background: rgb(136, 133, 133);
+    padding: 1.5rem;
+    margin: 1rem 0;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+
+form .textField::placeholder {
+    color: #1a1a1a;
+    /* color: rgb(175, 172, 172); */
+}
+
+.containerC input:focus {
+    background-color: #353b48;
+    background: #eee;
+    color: #333;
+}
+
+.containerC textarea:focus {
+    background-color: #353b48;
+    background: #eee;
+    color: #333;
+
+}
+
+.message {
+    height: 8rem;
+    resize: none;
+    font-size: 1.2rem;
+
+}
+
+
 
 
 .containerC .btnC {
@@ -56,7 +100,5 @@
 
 .containerC .btnC:hover {
     background-color: #f9ca24;
-    border-radius: 2rem;
     color: #333;
-    letter-spacing: .2rem;
 }

@@ -34,10 +34,8 @@ a .btnP {
 
 a .btnP:hover {
     background-color: #f9ca24;
-    border-radius: 2rem;
     color: #333;
     cursor: pointer;
-    letter-spacing: .2rem;
 }
 
 /* Hovering images */

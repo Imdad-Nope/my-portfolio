@@ -1,4 +1,4 @@
- [Live Link](https://my-portfolio-3ba9f.web.app/).
+ [My Portfolio](https://my-portfolio-3ba9f.web.app/).
 
 ## Techology used: 
 ### React js.

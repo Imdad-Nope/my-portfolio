@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button, Container, Grid, Stack, Typography } from '@mui/material';
-import portfolio from '../../../images/ok.png'
-import Particles from "react-tsparticles";
+import portfolio from '../../../images/portfolio.png'
+// import Particles from "react-tsparticles";
 import CssBaseline from '@mui/material/CssBaseline';
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
 import './Banner.css';
@@ -36,7 +36,7 @@ const Banner = () => {
 
             <main>
                 <div id='home' className='bannerMain'>
-                    <div>
+                    {/* <div>
 
                         <div id='tsparticles'>
                             <div id='tsparticles'>
@@ -62,7 +62,7 @@ const Banner = () => {
                             </div>
 
                         </div>
-                    </div>
+                    </div> */}
 
 
                     <Container maxWidth='sm' className='containerB'>
