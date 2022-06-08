@@ -105,11 +105,11 @@ body::-webkit-scrollbar-thumb {
 .logo {
     font-weight: bold;
     text-transform: uppercase;
-    margin-bottom: 1rem;
+    margin-bottom: .5rem;
     text-align: center;
     color: var(--text-secondary);
     background: var(--bg-secondary);
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     letter-spacing: 0.3ch;
     width: 100%;
 }
@@ -134,8 +134,9 @@ body::-webkit-scrollbar-thumb {
 @media only screen and (max-width: 600px) {
     .navbar {
         bottom: 0;
-        width: 100vw;
+        width: 100%;
         height: 4rem;
+
     }
 
     .logo {
@@ -151,6 +152,11 @@ body::-webkit-scrollbar-thumb {
     }
 
     main {
+        margin: 0;
+    }
+
+    .link-text {
+        padding: 0;
         margin: 0;
     }
 
@@ -170,6 +176,7 @@ body::-webkit-scrollbar-thumb {
 
     .navbar:hover .link-text {
         display: inline;
+
     }
 
     .navbar:hover .logo svg {

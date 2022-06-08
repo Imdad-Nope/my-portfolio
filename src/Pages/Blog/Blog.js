@@ -16,7 +16,7 @@ const Blog = () => {
                 }
             }}>
                 <main>
-                    <div className='blogMain'>
+                    <div className='blogMain' id='blog'>
                         <Container>
                             <Grid
                                 container

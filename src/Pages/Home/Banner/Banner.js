@@ -145,7 +145,7 @@ const Banner = () => {
                                                     </a>
 
 
-                                                    <a href="https://drive.google.com/file/d/1tcng_sfmtYDpHO67gE6BjQBzow4ffzIr/view?usp=sharing">
+                                                    <a href="https://drive.google.com/file/d/11Z7ccdouayEAcnNppT-t1Y6Rp6EXpSx9/view?usp=sharing">
                                                         <Button className='btnB' variant="contained">Download Cv</Button>
                                                     </a>
 

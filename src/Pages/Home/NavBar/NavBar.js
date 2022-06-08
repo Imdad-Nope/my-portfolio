@@ -60,6 +60,12 @@ const NavBar = () => {
 
                                 </a>
                             </li>
+                            <li class="nav-item">
+                                <a href="#blog" class="nav-link">
+                                    <span className='link-text'>Blog</span>
+
+                                </a>
+                            </li>
 
                             <li class="nav-item">
                                 <a href="#project" class="nav-link">
