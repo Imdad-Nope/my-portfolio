@@ -38,10 +38,10 @@ const Contact = () => {
         })
             .then(res => res.json())
             .then(data => {
-                if (data) {
+                if (data.insertedId) {
                     setSuccess(true)
+                    e.target.reset()
                 }
-                e.target.reset()
             })
     }
 

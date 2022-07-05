@@ -49,10 +49,60 @@ const Projects = () => {
                                         </Grid>
                                     </Grid>
                                     <Grid item xs={12} sm={8} md={4} className='projectCard'>
+
+
+                                        <Grid item>
+                                            <img
+
+                                                width='80%'
+                                                height='200vh'
+                                                src={p3} alt="" />
+                                        </Grid>
+                                        <Grid item className='content'>
+
+                                            <a href="https://ottawa-tourists-recreation.web.app/" >
+                                                <Button variant='contained' className='btnP'>Live</Button>
+                                            </a>
+                                            <a href="https://github.com/Imdad-Nope/ottawa-tourists-creation">
+                                                <Button variant='contained' className='btnP'>Client</Button>
+                                            </a>
+                                        </Grid>
+
+
+                                    </Grid>
+                                    <Grid item xs={12} sm={8} md={4} className='projectCard'>
+
+
+                                        <Grid item>
+                                            <img
+                                                width='80%'
+                                                height='200vh'
+                                                src={p2} alt="" />
+                                        </Grid>
+                                        <Grid item className='content'>
+
+                                            <a href="https://heuristic-brattain-74b953.netlify.app/" >
+                                                <Button variant='contained' className='btnP'>Live</Button>
+                                            </a>
+                                            <a href="https://github.com/Imdad-Nope/baby-care-products-site">
+                                                <Button variant='contained' className='btnP'>Client</Button>
+                                            </a>
+                                            <a href="https://github.com/Imdad-Nope/baby-products-server">
+                                                <Button variant='contained' className='btnP'>Server</Button>
+                                            </a>
+
+                                        </Grid>
+
+
+                                    </Grid>
+                                    <Grid item xs={12} sm={8} md={4} className='projectCard'>
+
                                         <Grid item>
                                             <img
                                                 src={p4} alt="" />
                                         </Grid>
+
+
                                         <Grid item className='content'>
                                             <a href="https://cbr-honda-is-ready-to-ride.netlify.app/" >
                                                 <Button variant='contained' className='btnP'>Live</Button>
@@ -62,8 +112,11 @@ const Projects = () => {
                                             </a>
 
                                         </Grid>
+
                                     </Grid>
                                     <Grid item xs={12} sm={8} md={4} className='projectCard'>
+
+
                                         <Grid item >
                                             <img
 
@@ -79,45 +132,8 @@ const Projects = () => {
                                                 <Button variant='contained' className='btnP'>Client</Button>
                                             </a>
                                         </Grid>
-                                    </Grid>
-                                    <Grid item xs={12} sm={8} md={4} className='projectCard'>
-                                        <Grid item>
-                                            <img
 
-                                                width='80%'
-                                                height='200vh'
-                                                src={p3} alt="" />
-                                        </Grid>
-                                        <Grid item className='content'>
 
-                                            <a href="https://unruffled-wiles-007b42.netlify.app/" >
-                                                <Button variant='contained' className='btnP'>Live</Button>
-                                            </a>
-                                            <a href="https://github.com/Imdad-Nope/ottawa-tourists-creation">
-                                                <Button variant='contained' className='btnP'>Client</Button>
-                                            </a>
-                                        </Grid>
-                                    </Grid>
-                                    <Grid item xs={12} sm={8} md={4} className='projectCard'>
-                                        <Grid item>
-                                            <img
-                                                width='80%'
-                                                height='200vh'
-                                                src={p2} alt="" />
-                                        </Grid>
-                                        <Grid item className='content'>
-
-                                            <a href="https://babys-care-products.firebaseapp.com/" >
-                                                <Button variant='contained' className='btnP'>Live</Button>
-                                            </a>
-                                            <a href="https://github.com/Imdad-Nope/baby-care-products-site">
-                                                <Button variant='contained' className='btnP'>Client</Button>
-                                            </a>
-                                            <a href="https://github.com/Imdad-Nope/baby-products-server">
-                                                <Button variant='contained' className='btnP'>Server</Button>
-                                            </a>
-
-                                        </Grid>
                                     </Grid>
                                     <Grid item xs={12} sm={8} md={4} className='projectCard'>
                                         <Grid item>
