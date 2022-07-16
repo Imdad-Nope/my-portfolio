@@ -49,7 +49,7 @@ const About = () => {
                                                     <span className='typoA3'> Language : </span> <span className='typoA2'>Bangla And English</span>
                                                 </Typography>
                                                 <Grid >
-                                                    <a href="https://drive.google.com/file/d/1EDYen9uMsRl3zrVdzQj_Xq0cVOG400iF/view?usp=sharing" download>
+                                                    <a href="https://drive.google.com/file/d/18vpXpZ0V4eL0RXPY_VcyNgUb1zAwf6F8/view?usp=sharing" download>
                                                         <Button className='btnA' variant='contained'>Download Cv
                                                             <span className='icons'><DownloadIcon /></span>
                                                         </Button>
