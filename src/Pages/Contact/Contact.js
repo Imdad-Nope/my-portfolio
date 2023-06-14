@@ -29,7 +29,7 @@ const Contact = () => {
     const handleSubmit = e => {
         e.preventDefault()
 
-        fetch('https://arcane-springs-13109.herokuapp.com/clientData', {
+        fetch('https://portfolio-server-chi-two.vercel.app/clientData', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
@@ -48,7 +48,6 @@ const Contact = () => {
 
     return (
         <>
-
             <CssBaseline />
             <main>
                 <div id='contact' className='contactMain'>
@@ -165,7 +164,7 @@ const Contact = () => {
                     </Container>
                 </div>
             </main >
-
+           
         </>
     );
 };

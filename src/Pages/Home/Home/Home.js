@@ -12,6 +12,7 @@ import NavBar from '../NavBar/NavBar';
 const Home = () => {
 
     return (
+        <div>
         <Box>
             <Stack
             >
@@ -27,7 +28,7 @@ const Home = () => {
             </Stack>
 
         </Box>
-
+        </div>
     );
 };
 

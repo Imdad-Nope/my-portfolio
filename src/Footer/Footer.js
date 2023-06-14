@@ -6,6 +6,7 @@ const Footer = () => {
 
     return (
         <>
+        <div>
             <CssBaseline />
             <div className='footerMain'>
                 <main>
@@ -21,6 +22,7 @@ const Footer = () => {
                         </Grid>
                     </Container>
                 </main>
+            </div>
             </div>
         </>
     );

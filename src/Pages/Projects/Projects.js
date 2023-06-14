@@ -13,6 +13,7 @@ const Projects = () => {
 
     return (
         <>
+        <div>
             <CssBaseline />
             <main>
                 <div id='project' className='projectMain'>
@@ -160,6 +161,7 @@ const Projects = () => {
                     </Container>
                 </div>
             </main >
+            </div>
         </>
     );
 };

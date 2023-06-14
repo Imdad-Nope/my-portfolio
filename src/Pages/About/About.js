@@ -43,13 +43,13 @@ const About = () => {
 
 
                                                 <Typography variant="h6" gutterBottom component="div" className='infoA'>
-                                                    <span className='typoA3'> Post : </span> <span className='typoA2'>Frontend Developer</span>
+                                                    <span className='typoA3'> Post : </span> <span className='typoA2'>MERN Developer</span>
                                                 </Typography>
                                                 <Typography variant="h6" gutterBottom component="div" className='infoA'>
                                                     <span className='typoA3'> Language : </span> <span className='typoA2'>Bangla And English</span>
                                                 </Typography>
                                                 <Grid >
-                                                    <a href="https://drive.google.com/file/d/18vpXpZ0V4eL0RXPY_VcyNgUb1zAwf6F8/view?usp=sharing" download>
+                                                    <a href="https://drive.google.com/file/d/1vz0tJ1Oe_m8Xd2eQ780VCuKir0I-DjG3/view?usp=sharing" download>
                                                         <Button className='btnA' variant='contained'>Download Cv
                                                             <span className='icons'><DownloadIcon /></span>
                                                         </Button>
@@ -65,7 +65,7 @@ const About = () => {
                                                 <Card className='cardBg'>
                                                     <CardContent>
                                                         <Typography variant="h4" gutterBottom component="div">
-                                                            <span className='typoA2'>1+</span>
+                                                            <span className='typoA2'>2+</span>
 
                                                         </Typography>
                                                         <Typography variant="subtitle1" gutterBottom component="div">
@@ -80,7 +80,7 @@ const About = () => {
                                                 <Card className='cardBg'>
                                                     <CardContent>
                                                         <Typography variant="h4" gutterBottom component="div">
-                                                            <span className='typoA2'>16+</span>
+                                                            <span className='typoA2'>20+</span>
 
                                                         </Typography>
                                                         <Typography variant="subtitle1" gutterBottom component="div">
@@ -97,7 +97,7 @@ const About = () => {
                                                 <Card className='cardBg'>
                                                     <CardContent>
                                                         <Typography variant="h4" gutterBottom component="div">
-                                                            <span className='typoA2'>5+</span>
+                                                            <span className='typoA2'>10+</span>
 
                                                         </Typography>
                                                         <Typography variant="subtitle1" gutterBottom component="div">

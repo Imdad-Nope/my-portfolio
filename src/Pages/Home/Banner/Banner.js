@@ -10,21 +10,8 @@ import './Banner.css';
 
 const Banner = () => {
 
-    // const particlesInit = (main) => {
-    //     console.log(main);
-
-    // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
-    // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
-    // starting from v2 you can add only the features you need reducing the bundle size
-
-    // };
-
-    // const particlesLoaded = (container) => {
-    //     console.log(container);
-    // };
-
     const { text } = useTypewriter({
-        words: ['Web Designer', 'Web Developer', 'Front-end Developer', 'Backend Developer'],
+        words: ['ReactJs Developer', 'Front-End Developer', 'Backend Developer'],
         loop: 0,
 
     });
@@ -32,39 +19,11 @@ const Banner = () => {
 
     return (
         <>
+        <div>
             <CssBaseline />
 
             <main>
                 <div id='home' className='bannerMain'>
-                    {/* <div>
-
-                        <div id='tsparticles'>
-                            <div id='tsparticles'>
-                                <Particles
-                                    className='body-particles'
-                                    params={{
-                                        fpsLimit: 60,
-                                        particles: {
-                                            color: {
-                                                value: "#808080"
-                                            },
-                                            links: {
-                                                enable: true,
-                                                color: "#808080",
-                                                distance: 120
-                                            },
-                                            move: {
-                                                enable: true
-                                            }
-                                        }
-                                    }}
-                                />
-                            </div>
-
-                        </div>
-                    </div> */}
-
-
                     <Container maxWidth='sm' className='containerB'>
 
                         <Grid>
@@ -107,7 +66,7 @@ const Banner = () => {
                                             </Grid>
                                             <Grid item>
                                                 <Typography className='typoB3' variant="h6" gutterBottom align='justify'>
-                                                    "I am junior-level Front-End-Developer seeking for opportunities to work on interesting projects. I will be able to adjust myself with any <strong className='typo2'>MERN</strong> developed company based on my knowledge. As instance,
+                                                    "I am junior-level MERN Stack Web Developer seeking for opportunities to work on interesting projects. I will be able to adjust myself with any <strong className='typo2'>MERN</strong> developed company based on my knowledge. As instance,
                                                 </Typography>
                                             </Grid>
                                         </Grid>
@@ -145,7 +104,7 @@ const Banner = () => {
                                                     </a>
 
 
-                                                    <a href="https://drive.google.com/file/d/18vpXpZ0V4eL0RXPY_VcyNgUb1zAwf6F8/view?usp=sharing" download >
+                                                    <a href="https://drive.google.com/file/d/1vz0tJ1Oe_m8Xd2eQ780VCuKir0I-DjG3/view?usp=sharing" download >
                                                         <Button className='btnB' variant="contained">Download Cv</Button>
                                                     </a>
 
@@ -161,7 +120,7 @@ const Banner = () => {
                     </Container >
                 </div >
             </main >
-
+            </div>
         </>
     );
 };
