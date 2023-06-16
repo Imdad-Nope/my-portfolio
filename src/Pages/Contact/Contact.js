@@ -21,15 +21,16 @@ const Contact = () => {
     const handleOnBlur = e => {
         const field = e.target.name;
         const value = e.target.value;
-        const newData = { ...data };
+        const newData = { ...data};
         newData[field] = value;
         console.log(field, value);
         setData(newData)
-    }
+    };
+
     const handleSubmit = e => {
         e.preventDefault()
 
-        fetch('https://portfolio-server-chi-two.vercel.app/clientData', {
+    fetch('https://portfolio-server-chi-two.vercel.app/clientData', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
@@ -41,9 +42,9 @@ const Contact = () => {
                 if (data.insertedId) {
                     setSuccess(true)
                     e.target.reset()
-                }
-            })
-    }
+                };
+            });
+    };
 
 
     return (

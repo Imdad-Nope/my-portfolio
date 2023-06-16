@@ -1,4 +1,4 @@
- [Portfolio](https://my-portfolio-3ba9f.web.app/)
+ [Portfolio](https://my-portfolio-3ba9f.web.app/).
 
 ## Techology used: 
 #### React js.
@@ -7,4 +7,4 @@
 #### Nodejs.
 #### Material Ui.
 #### Pure Css.
-#### A fancy and responsive Portfolio.
+#### A fancy and Mobile responsive Portfolio.
