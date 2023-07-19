@@ -30,7 +30,7 @@ const Contact = () => {
     const handleSubmit = e => {
         e.preventDefault()
 
-    fetch('https://portfolio-server-chi-two.vercel.app/clientData', {
+    fetch('https://portfolio-server-ihoi.onrender.com/clientData', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
