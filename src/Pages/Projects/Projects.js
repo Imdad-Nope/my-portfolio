@@ -82,7 +82,7 @@ const Projects = () => {
                                         </Grid>
                                         <Grid item className='content'>
 
-                                            <a href="https://heuristic-brattain-74b953.netlify.app/" >
+                                            <a href="https://babys-care-products.web.app/" >
                                                 <Button variant='contained' className='btnP'>Live</Button>
                                             </a>
                                             <a href="https://github.com/Imdad-Nope/baby-care-products-site">
